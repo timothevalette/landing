@@ -1,0 +1,32 @@
+.banner {
+  /* 1. Set a background image */
+  background-image: url(../../images/priscilla-du-preez-XkKCui44iM0-unsplash.jpg);   
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;     
+  /* 3. Center the image */
+	background-position: center
+}
+
+.banner {
+  color: white;
+  font-size: 50px;
+  padding :150px;
+
+}
+
+.banner h1 {
+	font-size: 40px;
+	font-weight: bolder;
+	
+}
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+	opacity: 0.8;
+}
+
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('../../images/priscilla-du-preez-XkKCui44iM0-unsplash.jpg');
+
+}
